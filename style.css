@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+body {
+  background-color: #0a192f;
+  color: #8c97c1;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  height: 100%;
+}
+.general {
+  margin-bottom: 70px;
+  /* color: #becbf2; */
+}
+
+a i {
+  font-size: 25px;
+  color: white;
+}
+.leetcode-icon {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+}
+.header {
+  margin-left: 100px;
+  /* margin-bottom: 30px; */
+  padding: 95px 0px 20px 20px;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  box-sizing: border-box;
+}
+.main {
+  margin-right: 60px;
+  /* margin-top: 85px; */
+}
+
+body {
+  background-color: #0a192f;
+  color: #ccd6f6;
+}
+.line h4 {
+  display: flex;
+  align-items: center;
+}
+.line a {
+  text-decoration: none;
+  color: #ccd6f6;
+}
+.line a:hover {
+  color: #64ffda;
+}
+.line h4::before {
+  content: "";
+  height: 1px;
+  width: 100px;
+  background-color: #233554;
+}
+.head {
+  display: flex;
+  gap: 100px;
+  align-items: flex-start;
+}
+.min {
+  display: flex;
+}
+.second img {
+  transition:
+    transform 0.6s ease,
+    box-shadow 0.6s ease-in-out;
+  box-shadow: 0 0 0 white;
+}
+.second img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 8px rgb(241, 241, 241);
+}
+
+.second img {
+  margin-left: 150px;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.line {
+  margin-top: 120px;
+  margin-left: 15px;
+}
+
+.icons {
+  margin-top: 190px;
+  display: flex;
+  margin-left: 45px;
+  gap: 30px;
+}
+.tech > h2 {
+  color: white;
+}
+.proj > h2 {
+  color: white;
+}
+.first > h1 {
+  width: 300px;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  margin: 0;
+  color: white;
+}
+.about {
+  margin-top: 85px;
+  letter-spacing: 1px;
+  line-height: 1.7;
+}
+.firstproj {
+  display: flex;
+}
+.firstproj img {
+  margin-top: 20px;
+  margin-right: 20px;
+  height: 120px;
+  width: 180px;
+  border: 1px solid #0a192f;
+  border-radius: 5px;
+}
+.firstproj img:hover {
+  border: 1px solid rgb(98, 84, 84);
+}
+
+.btn1,
+.btn2,
+.btn3 {
+  color: #64ffda;
+  background-color: #2dd4bf1a;
+  border-radius: 20px;
+  border: none;
+  padding: 4px 12px;
+}
+.tech {
+  margin-top: 40px;
+}
+.tech > h2 {
+  margin: 0;
+}
+.btn4 > h4 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+.btn8 > h4 {
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.btn13 > h4 {
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.btn5,
+.btn6,
+.btn7,
+.btn9,
+.btn10,
+.btn11,
+.btn12,
+.btn14,
+.btn15,
+.btn16 {
+  margin: 0;
+  border: none;
+  border-radius: 10px;
+  padding: 4px;
+  color: #64ffda;
+  background-color: #2dd4bf1a;
+  padding: 4px 12px;
+}
+.firstproj {
+  margin-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border-radius: 10px;
+  background-color: #0a192f;
+  transition: background-color 0.3s ease;
+}
+.firstproj:hover {
+  background-color: #122b51;
+}
+.firstproj h2 {
+  color: #ccd6f6;
+  transition: color 0.3s ease;
+}
+
+.firstproj:hover h2 {
+  color: #69f4d3;
+}
+.proj > h2 {
+  margin: 0;
+  margin-top: 80px;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .body {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .header {
+    margin-left: 0;
+    padding: 30px 20px;
+    height: auto;
+    position: relative;
+  }
+
+  .main {
+    margin: 0 20px;
+  }
+
+  .head {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .second img {
+    margin-left: 0;
+    max-width: 100%;
+  }
+
+  .line {
+    margin-top: 30px;
+    margin-left: 0;
+  }
+
+  .icons {
+    margin: 30px 0;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .firstproj img {
+    width: 100px;
+    height: auto;
+    margin-right: 12px;
+  }
+
+  .first > h1 {
+    max-width: 100%;
+    font-size: 32px;
+  }
+}
